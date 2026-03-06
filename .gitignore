@@ -1,0 +1,27 @@
+# Virtual environments
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/*.log
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test cache
+.pytest_cache/
+
+# Processed Data
+data/processed/*
+!data/processed/.gitkeep
+data/output
