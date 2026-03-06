@@ -45,8 +45,11 @@ CNN/
 │       ├── horses/
 │       └── human/
 │
+├── app.py
+├── test.py
 ├── main.py
 ├── image_classifier.h5
+├── requirements.txt
 └── README.md
 ```
 
@@ -68,7 +71,7 @@ The model is trained with:
 * Image augmentation
 * Adam optimizer
 * Categorical crossentropy loss
-* 30 training epochs
+* Call backs to improve training
 
 ## Results
 
